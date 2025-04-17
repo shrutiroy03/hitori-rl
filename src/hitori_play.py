@@ -7,7 +7,7 @@ import signal
 import sys
 
 def handle_suspend(signum, frame):
-    print("\n⚠️  Suspended with Ctrl+Z. Exiting cleanly...")
+    print("\n Suspended with Ctrl+Z. Exiting cleanly...")
     sys.exit(0)
 
 signal.signal(signal.SIGTSTP, handle_suspend)
