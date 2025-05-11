@@ -1,3 +1,8 @@
+Reinforcement Learning for Hitori
+======
+
+The following code base is adapted from the [GTK+ Hitori implementation](https://github.com/GNOME/hitori.git). Our contributions are the located in the 'main' and 'src' folders: Python files in the 'src' folder representing our attempts to convert the initial Hitori implementation to Python, and Python notebooks under 'main' are used to train and visualize results. Colab was used to run our code in order to leverage GPU access.
+
 Hitori
 ======
 
